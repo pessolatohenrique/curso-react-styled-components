@@ -2,6 +2,7 @@ import React from "react";
 import bank_logo from "../../assets/images/bank_logo.svg";
 import styled from "styled-components";
 import { MAIN_COLOR, TEXT_COLOR } from "../DefaultColors";
+import { Logo } from "../../Styled/CommonComponents";
 
 const CabecalhoSection = styled.div`
   background-color: ${MAIN_COLOR};
@@ -26,7 +27,7 @@ const Button = styled.a`
 const Cabecalho = () => {
   return (
     <CabecalhoSection>
-      <img className="imagem-logo" src={bank_logo} alt="Logo Smart Bank" />
+      <Logo src={bank_logo} alt="Logo Smart Bank" />
       <div>
         <Button primary href="https://google.com">
           Ajuda

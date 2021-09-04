@@ -2,16 +2,18 @@ import React from "react";
 
 import Titulo from "../Titulo";
 import Conta from "../Conta";
+import { Container, Content } from "../../Styled/CommonComponents";
 
-const Container = () => {
+const ContainerWrapper = () => {
   return (
-    <div className="container">
+    <Container>
       <Titulo>Olá Fulano!</Titulo>
-      <section className="conteudo">
+      <Content>
         <Conta />
-      </section>
-    </div>
+        <Conta />
+      </Content>
+    </Container>
   );
 };
 
-export default Container;
+export default ContainerWrapper;
