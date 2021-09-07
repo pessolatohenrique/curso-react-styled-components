@@ -2,6 +2,7 @@ import React from "react";
 
 import Titulo from "../Titulo";
 import Conta from "../Conta";
+import Extrato from "../Extrato";
 import { Container, Content } from "../../Styled/CommonComponents";
 
 const ContainerWrapper = () => {
@@ -10,7 +11,7 @@ const ContainerWrapper = () => {
       <Titulo>Olá Fulano!</Titulo>
       <Content>
         <Conta />
-        <Conta />
+        <Extrato />
       </Content>
     </Container>
   );

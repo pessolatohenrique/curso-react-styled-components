@@ -69,3 +69,14 @@ export const Logo = styled.img`
   height: 50px;
   width: 50px;
 `;
+
+export const Item = styled.div`
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 2px 0;
+  padding: 10px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+`;
