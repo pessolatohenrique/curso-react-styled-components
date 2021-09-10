@@ -22,14 +22,6 @@ export const extratoLista = {
       from: "Farma Ponte",
     },
     {
-      id: "656565",
-      type: "Transporte",
-      value: "15,00",
-      date: "8 JUN",
-      from: "Uber",
-    },
-
-    {
       id: "926544",
       type: "Outros",
       value: "150,00",

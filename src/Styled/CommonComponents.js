@@ -70,6 +70,8 @@ export const Logo = styled.img`
   width: 50px;
 `;
 
+export const BreakLine = styled.br``;
+
 export const Item = styled.div`
   box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -79,4 +81,17 @@ export const Item = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+`;
+
+export const ItemContent = styled.p``;
+
+export const ItemEmphasy = styled.strong``;
+
+export const ItemDetails = styled.p`
+  width: 33%;
+`;
+
+export const ItemImage = styled.img`
+  width: 40px;
+  height: 40px;
 `;
