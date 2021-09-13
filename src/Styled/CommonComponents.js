@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background-color: #f1f1f1;
+  background-color: ${(props) => props.theme.background};
   min-height: 90vh;
   padding: 0px 15vw;
 `;
@@ -20,6 +20,7 @@ export const Content = styled.section`
 export const IconImage = styled.img`
   height: 25px;
   width: 25px;
+  filter: ${(props) => props.theme.filter};
 `;
 
 export const IconImageMargin = styled(IconImage)`
@@ -30,7 +31,7 @@ export const Box = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: white;
+  background-color: ${(props) => props.theme.content};
   border-radius: 5px;
   box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.04);
   padding: 20px;
@@ -94,4 +95,5 @@ export const ItemDetails = styled.p`
 export const ItemImage = styled.img`
   width: 40px;
   height: 40px;
+  filter: ${(props) => props.theme.filter};
 `;
