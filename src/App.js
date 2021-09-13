@@ -1,6 +1,6 @@
 import React from "react";
 
-import GlobalStyle from "./Components/GlobalStyle";
+import GlobalStyle from "./Styled/GlobalStyle";
 import Cabecalho from "./Components/Cabecalho";
 import Container from "./Components/Container";
 

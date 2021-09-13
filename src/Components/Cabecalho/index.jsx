@@ -1,7 +1,7 @@
 import React from "react";
 import bank_logo from "../../assets/images/bank_logo.svg";
 import styled from "styled-components";
-import { MAIN_COLOR, TEXT_COLOR } from "../DefaultColors";
+import { MAIN_COLOR, TEXT_COLOR } from "../../Styled/DefaultColors";
 import { Logo } from "../../Styled/CommonComponents";
 
 const CabecalhoSection = styled.div`
